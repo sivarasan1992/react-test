@@ -14,6 +14,5 @@ it("calls click event on click of a board square", () => {
     .find("button.square")
     .first()
     .simulate("click");
-  console.log(expect(onClick).toBeCalledWith, "expect(onClick)");
   expect(onClick).toBeCalledWith(0);
 });

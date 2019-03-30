@@ -69,7 +69,6 @@ export default class Game extends Component {
     } else {
       status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     }
-
     return (
       <div className="game">
         <div className="game-board">
